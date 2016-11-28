@@ -75,7 +75,7 @@ def room4():
     print(" ")
     print("After leaving the swamp you find youself in a forest.")
     print("As you walk along an ogre jumps out and attacks you.")
-    fight = input ("What do you do? Chose you wepon. Axe. ")
+    fight = input ("What do you do? Choose your wepon. Axe. ")
 
     if fight.upper()[0] == "A":
         print("You swipe at the ogre")
@@ -92,14 +92,14 @@ def room5():
      print("See 2 Ice Ogres and you start a battle")
      print("*A mysterous voice whispers,'Fire is very effective on Ice beasts.'")
         
-     fight1 = input ("What do you do? Chose you wepon. Fire blast. ")
+     fight1 = input ("What do you do? Choose your wepon. Fire blast. ")
 
      if fight1.upper()[0] == "F":
-         print("You shoot your fire blast and it hits both ogers killing them instently")
+         print("You shoot your fire blast and it hits both ogres killing them instently")
          IogerHp = 0
          Ioger2Hp = 0
-         print("Ice Oger1 health = " , IogerHp)
-         print("Ice Oger2 health = " , Ioger2Hp)
+         print("Ice Ogre1 health = " , IogerHp)
+         print("Ice Ogre2 health = " , Ioger2Hp)
          print("You level up in magic")
          magic = 4
          print("magic = ", magic)
@@ -134,7 +134,7 @@ def room6():
             health = health - 5
             print("Hp = ", health)
 
-        elif fightboss.upper()[0]=="R":
+        elif fightboss.upper()[0]=="S":
             print("You swipe your sword and get a hit in Shrek's leg")
             Shrek = Shrek-5
             print("Shrek Hp = ", Shrek)
@@ -143,14 +143,14 @@ def room6():
             print("Hp = ", health)
         if Shrek <= 0:
             print("You defeated the mighty Shrek and see the chest he was gurding")
-            print ("You deside to open it and and find ...  the legendery sword known as the Shreker and the great armor of Shrek.")
+            print ("You deside to open it and and find ...  the legendary sword known as the Shreker and the great armor of Shrek.")
             attack = 100
             defence = 100
             print("Attack Damage = ", attack)
             print("Defence level = ", defence)
 
-            print("After a long journey you deside to head home with all you new lit gear and riches.")
-            print("                                                                 The End")
+            print("After a long journey you decide to head home with all you new lit gear and riches.")
+            print("                                     The End")
             
         
 def room7():
@@ -201,14 +201,14 @@ def room8():
             print("Hp = ", health)
         if Shrek <= 0:
             print("You defeated the mighty Shrek and see the chest he was gurding")
-            print ("You deside to open it and and find ...  the legendery sword known as the Shreker and the great armor of Shrek.")
+            print ("You deside to open it and and find ...  the legendary sword known as the Shreker and the great armor of Shrek.")
             attack = 100
             defence = 100
             print("Attack Damage = ", attack)
             print("Defence level = ", defence)
 
-            print("After a long journey you deside to head home with all you new lit gear and riches.")
-            print("                                                                 The End")    
+            print("After a long journey you decide to head home with all you new lit gear and riches.")
+            print("                                     The End")    
     
     
         
